@@ -1,0 +1,184 @@
+/*estilos comunes*/
+* {
+    box-sizing: border-box;
+}
+body {
+margin: 0px;
+padding: 0px;
+font-size: 16px;
+}
+/*header*/
+header {
+    padding: 50px;
+    text-align: center;
+    background-image: url(../imagen/Helen\ Glassford\ —2018\ -\ Acceso\ directo.lnk);
+    background-size: cover;
+    background-repeat: no-repeat
+}
+header div {
+    padding: 10px;
+    border-radius: 10px;
+    background-color:  #6c6c6c;
+    font-size: 1.1rem;
+    opacity: 80%;
+}
+header h1 {
+ font-family: "Playwrite NG Modern";
+ font-optical-sizing: auto;
+ font-weight: 500;
+ font-style: normal;
+    }
+    @media (max-width:800px) {
+        header{
+            background-position: center;
+        }
+    }
+    /*principal*/
+    .principal{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    @media (max-width:800px){
+        .principal {
+            flex-direction: column;
+        }
+    }
+    /*navbar*/
+    .navbar {
+        display: flex;
+        justify-content: center;
+        background-color:  #6c6c6c;
+        border-style: solid;
+        border-color: black;
+    }
+    .navbar a {
+        color: black;
+        padding: 44px 20px;
+        text-decoration: none;
+        position: sticky;
+        top: 0;
+        text-align: center;
+        
+    }
+    .navbar a:hover {
+        background-color: #3e4c59;
+    }
+    @media (max-width:800px){
+        .navbar{
+            flex-direction: column;
+            position: unset;
+        }
+    }
+    /*aside*/
+    aside{
+        flex-basis: 25%;
+        background-color: #f0f0f0;
+        padding: 10px;
+        text-align: center;
+        border-style: solid;
+        border-color: black;
+    }
+    .imagen {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        transition: 0.5s all ease-in-out;
+        }
+        .imagen:hover {
+            transform: scale(1.03);
+        }
+    aside p {
+        color: black;
+    }
+    /*Main*/
+    main {
+        flex-basis: 75%;
+        background-color: #f0f0f0;
+        padding: 20px;
+        padding-left: 40px;
+        border-style: solid;
+        border-color: black;
+    }
+    main p{
+        color: black;
+    }
+    .cuadro{
+        margin-left: 400px;
+    }
+    .trailer {
+        text-align: center;
+        font-family: "Playwrite NG Modern";
+    }
+    #video {
+        margin-left: 400px;
+    }
+    main h5 {
+        text-align: center;
+    }
+    .readmore {
+        display: block;
+        background-color: #6c6c6c;
+        color: #f0f0f0;
+        text-decoration: none;
+        text-align: center;
+        padding: 10px;
+        border-radius: 10px;
+        margin: auto;
+    }
+    .titulo{
+        text-align: center;
+        font-family: "Playwrite NG Modern";
+    }
+    /*footer*/
+    footer{
+        padding: 10px;
+        text-align: center;
+    }
+    /*formulario*/
+    form{
+        padding: 40px;
+        background-color: #f0f0f0;
+        border: 5px outset #3e4c59;
+        text-align: center;
+        height: 100vh;
+    }
+    label{
+        background-color: #6c6c6c;
+        color: #f0f0f0;
+        padding: 10px;
+        border-radius: 15px;
+    }
+    fieldset{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        border: 10px #212121;
+        border-style: groove;
+        margin-top: 10vh;
+        align-content: center;
+    }
+    input{
+        text-align: center;
+        margin-top: 15px;
+        padding: 10px;
+    }
+    label, input{
+        width: 50%;
+        font-size: large;
+        border-radius: 10px;
+    }
+    input[type="reset"]:hover {
+        background-color: #6c6c6c;
+        font-size: 20px;
+        font-weight: 700;
+    } 
+    input[type="submit"]:hover {
+        background-color:#6c6c6c;
+        font-size: 20px;
+        font-weight: 700;
+    } 
+    legend{
+        font-size: 1.5rem;
+        font-family: "Playwrite NG Modern";
+        font-weight: bolder;
+    }
