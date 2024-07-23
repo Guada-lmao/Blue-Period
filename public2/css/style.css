@@ -90,6 +90,9 @@ header h1 {
         color: black;
     }
     /*Main*/
+    #video{
+        object-fit: contain;
+        }
     main {
         flex-basis: 75%;
         background-color: #f0f0f0;
