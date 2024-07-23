@@ -36,7 +36,6 @@ header h1 {
     /*principal*/
     .principal{
         display: flex;
-        flex-wrap: wrap;
     }
     @media (max-width:800px){
         .principal {
@@ -108,9 +107,6 @@ header h1 {
     .trailer {
         text-align: center;
         font-family: "Playwrite NG Modern";
-    }
-    #video {
-        margin-left: 400px;
     }
     main h5 {
         text-align: center;
